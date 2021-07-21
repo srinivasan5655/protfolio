@@ -1,0 +1,18 @@
+{
+  "name": "porfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "parcel": "^2.0.0-beta.2",
+    "typed.js": "^2.0.12",
+    "vanilla-tilt": "^1.7.0"
+  }
+}
