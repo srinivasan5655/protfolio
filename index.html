@@ -9,22 +9,22 @@
     <title>Srinivasan</title>
   </head>
   <body>
-    <section class="home">
+    <section class="home" id="home">
       <!-- <div class="overlay"></div> -->
 
       <nav class="navbar">
-        <ul class="container">
+        <ul class="nav-container">
           <li class="item">
-            <a href="#a">HOME</a>
+            <a href="#home">HOME</a>
           </li>
           <li class="item">
-            <a href="#"> ABOUT ME</a>
+            <a href="#about"> ABOUT ME</a>
           </li>
           <li class="item">
-            <a href="#">PROJECTS</a>
+            <a href="#projects">PROJECTS</a>
           </li>
           <li class="item">
-            <a href="#">CONTACT</a>
+            <a href="#contact">CONTACT</a>
           </li>
         </ul>
       </nav>
@@ -35,21 +35,21 @@
           <br />
           <h1>I Am a <span class="typo"></span></h1>
           <p>
-            I am a front-end web developer. I create websites and web app with
+            I am a Full Stack web developer. I create websites and web app with
             quality code and turn your ideas or templates into a real website or
             web app.
           </p>
           <div class="buttons">
             <div class="button"><a href="#">Resume</a></div>
-            <div class="button"><a>Contact Me</a></div>
+            <div class="button"><a href="#contact">Contact Me</a></div>
           </div>
         </div>
         <div class="image">
-          <img src="./Capture-removebg.png" alt="img" />
+          <img src="./asserts/Capture-removebg.png" alt="img" />
         </div>
       </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <div class="about-container">
         <div class="heading">
           <h2 class="title">ABOUT ME</h2>
@@ -66,10 +66,10 @@
             <p>
               I am currently studying B.tech in information technology 3rd year.
               I am a web developer and I'm very passionate about web
-              development. My goal is to become a full stack developer and i am
-              working on it. I Know front-end web development and can make
-              beautiful wesites and Web apps. I am really interested in learning
-              things this i don't know about web development and i love to do
+              development. I can make beautiful wesites and Web apps and 
+              can your ideas or designs into a real website.
+              I am really interested in learning things this i don't 
+              know about web development and i love to do
               this and enjoy doing it.
             </p>
             <ul>
@@ -84,49 +84,71 @@
             </ul>
           </div>
           <div class="skills">
-            <h3>Skills</h3>
+            <h3>My Tech Stack</h3>
             <ul>
               <li data-aos="fade-up-left" data-aos-duration="1300">
                 <img
-                  src="https://thatcoffeeeguy.com/assets/images/tech/html.png"
+                  src="./asserts/html.png"
                   alt="html"
                 />
                 <p>HTML 5</p>
               </li>
               <li data-aos="fade-up-right" data-aos-duration="1300">
                 <img
-                  src="https://thatcoffeeeguy.com/assets/images/tech/css.png"
+                  src="./asserts/css.png"
                   alt="html"
                 />
                 <p>CSS</p>
               </li>
               <li data-aos="fade-up-left" data-aos-duration="1300">
                 <img
-                  src="https://thatcoffeeeguy.com/assets/images/tech/javascript.png"
+                  src="./asserts/javascript.png"
                   alt="html"
                 />
                 <p>Javascript</p>
               </li>
               <li data-aos="fade-up-right" data-aos-duration="1300">
                 <img
-                  src="https://thatcoffeeeguy.com/assets/images/tech/react.png"
+                  src="./asserts/react.png"
                   alt="html"
                 />
                 <p>React</p>
               </li>
               <li data-aos="fade-up-left" data-aos-duration="1300">
                 <img
-                  src="https://thatcoffeeeguy.com/assets/images/tech/python.png"
+                src='./asserts/node.png'                 
+                alt="html"
+                />
+                <p>node</p>
+              </li>
+              <li data-aos="fade-up-right" data-aos-duration="1300">
+                <img
+                 src="./asserts/mongodb.png"                 
+                alt="html"
+                />
+                <p>MongoDB</p>
+              </li>
+              <li data-aos="fade-up-left" data-aos-duration="1300">
+                <img
+                  src="./asserts/python.png"
                   alt="html"
                 />
                 <p>Python</p>
+              </li>      
+              <li data-aos="fade-up-right" data-aos-duration="1300">
+                <img
+                  src="./asserts/mysql.png"
+                  alt="html"
+                />
+                <p>Mysql</p>
               </li>
+              
             </ul>
           </div>
         </div>
       </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
       <div class="project-container">
         <h4>Projects</h4>
         <div class="card-container">
@@ -135,26 +157,26 @@
             <div class="overlay2"></div>
             <img
               class="project-image"
-              src="https://i.ytimg.com/vi/HCE6m1c1gpc/maxresdefault.jpg"
+              src="./asserts/movie.PNG"
             />
             <div class="project-description">
-              <h3>Title</h3>
+              <h3>Movies App</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo,
-                dolor?
+                This is a movies App which lets you search movies and gives
+                you an overview. It is build using react it app uses TMDB api for data about movies.
               </p>
             </div>
-            <h3 class="hover-title">Title</h3>
+            <h3 class="hover-title">Movies App</h3>
             <ul>
               <li>
-                <a href="#" title="Source Code">
+                <a target="blank" href="https://github.com/srinivasan5655/movieAppReact" title="Source Code">
                   <span style="color: white">
                     <i class="fab fa-github fa-2x"></i>
                   </span>
                 </a>
               </li>
               <li>
-                <a href="#" title="Live Demo"
+                <a target="blank" href="https://moviesapp-srinivasan5655.vercel.app/" title="Live Demo"
                   ><img
                     src="https://img.icons8.com/bubbles/50/000000/domain.png"
                     height="40"
@@ -169,26 +191,26 @@
             <div class="overlay2"></div>
             <img
               class="project-image"
-              src="https://i.ytimg.com/vi/HCE6m1c1gpc/maxresdefault.jpg"
+              src="./asserts/recipe.PNG"
             />
             <div class="project-description">
-              <h3>Title</h3>
+              <h3>Recipe App</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo,
-                dolor?
+                This is a recipe search app . This lets you search recipes and adjust the quantity 
+                as per the required.
               </p>
             </div>
-            <h3 class="hover-title">Title</h3>
+            <h3 class="hover-title">Recipe App</h3>
             <ul>
               <li>
-                <a href="#" title="Source Code">
+                <a target="blank" href="https://github.com/srinivasan5655/forkify-app" title="Source Code">
                   <span style="color: white">
                     <i class="fab fa-github fa-2x"></i>
                   </span>
                 </a>
               </li>
               <li>
-                <a href="#" title="Live Demo"
+                <a target="blank" href="https://forkify-srini.netlify.app/#5ed6604591c37cdc054bcdd3" title="Live Demo"
                   ><img
                     src="https://img.icons8.com/bubbles/50/000000/domain.png"
                     height="40"
@@ -203,26 +225,25 @@
             <div class="overlay2"></div>
             <img
               class="project-image"
-              src="https://i.ytimg.com/vi/HCE6m1c1gpc/maxresdefault.jpg"
+              src="./asserts/ticTak.PNG"
             />
             <div class="project-description">
-              <h3>Title</h3>
+              <h3>Tic Tac Toe</h3>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo,
-                dolor?
+                Its a Tic Tac Toe game build with javascript 
               </p>
             </div>
-            <h3 class="hover-title">Title</h3>
+            <h3 class="hover-title">Tic Tac Toe</h3>
             <ul>
               <li>
-                <a href="#" title="Source Code">
+                <a target="blank" href="https://github.com/srinivasan5655/Tic-Tac-Toe" title="Source Code">
                   <span style="color: white">
                     <i class="fab fa-github fa-2x"></i>
                   </span>
                 </a>
               </li>
               <li>
-                <a href="#" title="Live Demo"
+                <a target="blank" href="https://srinivasan5655.github.io/Tic-Tac-Toe/" title="Live Demo"
                   ><img
                     src="https://img.icons8.com/bubbles/50/000000/domain.png"
                     height="40"
@@ -235,7 +256,7 @@
       </div>
     </section>
 
-    <section class="contact">
+    <!-- <section class="contact">
       <div class="contact-container">
         <h3>Contact Me</h3>
         <form
@@ -269,12 +290,69 @@
             name="message"
             id="message"
             placeholder="Enter your message...."
-          />
+          >
 
           <button type="submit">Send Message</button>
         </form>
       </div>
+    </section> -->
+
+    <!-- TEST -->
+
+    <section id="contact">
+      <div class="contact container">
+        <div><h1 class="section-title">contact <span>info</span></h1></div>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="icon"><img src="https://img.icons8.com/nolan/64/apple-phone.png"/></div>
+              <div class="contact-info">
+                <h1>phone</h1>
+                <h2>6380626240</h2>
+              </div>
+                  </div>
+  
+          <a href="#" style="color: black;" class="contact-item">
+            <div class="icon"><img src="https://img.icons8.com/nolan/64/email.png"/></div>
+              <div class="contact-info">
+                <h1>email</h1>
+                <h2>srinivasan5655@gmail.com</h2>
+              </div>
+                  </a>
+  
+          <div class="contact-item">
+            <div class="icon"><img src="https://img.icons8.com/doodle/48/000000/address.png"/></div>
+              <div class="contact-info">
+                <h1>address</h1>
+                <h2>Chennai,India</h2>
+              </div>
+        </div>
+      </div>
     </section>
+    <!--end contact section-->
+  
+      <!--footer-->
+      <section id="footer">
+        <div class="footer container">
+          <div class="brand"><h1><span>S</span>rinivasan</h1></div>
+          <h2>Web Developer</h2>
+          <div class="social-icon">
+            <div class="social-item">
+              <a title="GitHub Profile" target="blank" href="https://github.com/srinivasan5655"><img src="https://img.icons8.com/ios-glyphs/60/000000/github.png"/></a>
+            </div>
+          
+              <div class="social-item">
+              <a title="Instagram" target="blank" href="https://www.instagram.com/srinivasan665544/"><img src="https://img.icons8.com/fluent/64/000000/instagram-new.png"/></a>
+            </div>
+          
+              <!-- <div class="social-item">
+              <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+            </div> -->
+          </div>
+          <p>Copyright © 2021 Srinivasan. All rights reserved</p>
+  
+        </div>
+      </section>
+    <!-- END -->
 
     <script
       src="https://kit.fontawesome.com/64a374ee45.js"

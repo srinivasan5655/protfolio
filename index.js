@@ -22,5 +22,3 @@ VanillaTilt.init(document.querySelectorAll(".button"), {
 
 //It also supports NodeList
 VanillaTilt.init(document.querySelectorAll(".button"));
-
-const test = document.getElementById("message").focus();
